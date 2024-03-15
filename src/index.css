@@ -8,3 +8,13 @@
     color: #fff;
   }
 }
+
+@layer components {
+  .btn-menu {
+    @apply text-lg bg-none h-fit md:text-base;
+  }
+
+  .btn-menu.active {
+    @apply text-purple-50 font-semibold;
+  }
+}
