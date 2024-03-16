@@ -16,6 +16,9 @@ module.exports = {
       "green-30": "rgba(74,256, 144, 0.3)",
     },
     spacing: {
+      "6px": "0.375rem", //6px
+      "10px": "0.625rem", //10px
+      "12px": "0.75rem", //10px
       1: "1rem", //16px
       1.5: "1.5rem", //24px
       2: "2rem", //32px
