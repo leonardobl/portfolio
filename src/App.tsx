@@ -2,18 +2,27 @@ import React from "react";
 
 export function App() {
   return (
-    <div className="bg-dark w-full py-2 px-1.5">
-      <div className="container m-auto">
+    <div className="bg-dark py-2 px-1.5 box-border w-full">
+      <div className="container">
         <div className="flex w-fit m-auto gap-1 mb-2.5 md:hidden">
           <img
             className="hover:cursor-pointer"
             src="/assets/svg/linkedin.svg"
             alt="icone linkedin"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/leonardo-bernardo-lima-84356050/",
+                "_black"
+              )
+            }
           />
           <img
             className="hover:cursor-pointer"
             src="/assets/svg/github.svg"
             alt="icone githun"
+            onClick={() =>
+              window.open("https://github.com/leonardobl", "_black")
+            }
           />
         </div>
 
@@ -35,22 +44,26 @@ export function App() {
         </div>
 
         <div className="flex flex-col gap-y-2">
-          <div className="relative">
+          <div className="relative w-fit h-fit">
             <img
-              className="absolute "
+              className="absolute -left-2 bottom-1"
               src="/assets/svg/figma.svg"
               alt="figma"
             />
-            <img className="absolute" src="/assets/svg/react.svg" alt="react" />
             <img
-              className="absolute"
+              className="absolute -left-2 top-5"
+              src="/assets/svg/react.svg"
+              alt="react"
+            />
+            <img
+              className="absolute -right-1 bottom-5"
               src="/assets/svg/typescript.svg"
               alt="typescript"
             />
             <img
               src="/assets/svg/logo.svg"
               alt="logo"
-              className="w-2.5 max-h-2.5 block hf"
+              className="w-2.5 max-h-2.5 absolute bottom-2 right-5"
             />
             <img src="/assets/img/avatar.png" alt="avatar" />
           </div>
