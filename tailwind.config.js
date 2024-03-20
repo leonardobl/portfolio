@@ -27,6 +27,10 @@ module.exports = {
       4: "4rem", //64px
       5: "5rem", //80px
       6: "6rem", //96px
+      7: "7rem", //112px
+      8: "8rem", //128px
+      9: "9rem", //144px
+      10: "10rem", //160px
     },
 
     extend: {},
