@@ -1,4 +1,4 @@
-import { SectionAbout } from "@/components/About";
+import { SectionAbout } from "@/components/SectionAbout";
 
 export const Home = () => {
   return (

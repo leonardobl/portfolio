@@ -6,7 +6,7 @@ export const SectionAbout = () => {
   return (
     <section>
       <Wrapper>
-        <div>
+        <div className="flex items-center flex-col">
           <CardAbout />
           <div>
             <Title as="h1">Hey</Title>
