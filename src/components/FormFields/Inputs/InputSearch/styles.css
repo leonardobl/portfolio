@@ -6,7 +6,7 @@
   height: 100dvh;
   display: block;
   content: "";
-  background: rgba(41, 47, 54, 0.1);
+  background: rgba(41, 47, 54, 0.2);
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
 }
