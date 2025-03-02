@@ -13,7 +13,7 @@ export const InputSearch = ({ className, ...rest }: InputSearchProps) => {
     <div
       className={twMerge(
         "flex flex-col items-end relative",
-        toggleOpen && isSmall && "search-overlay z-10"
+        toggleOpen && isSmall && "search-overlay z-50"
       )}
     >
       <div className="relative">
