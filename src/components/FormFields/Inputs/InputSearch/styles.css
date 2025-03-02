@@ -7,6 +7,5 @@
   display: block;
   content: "";
   background: rgba(41, 47, 54, 0.5);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
 }
