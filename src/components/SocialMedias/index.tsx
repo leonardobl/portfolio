@@ -23,7 +23,7 @@ export const SocialMedias = (props: SocialMediasProps) => {
       <a href="#" target="_blank" className="flex items-center gap-2">
         <BiLogoWhatsapp className="w-6 h-6 text-custom-brand-100" />
         <Text as="span" variant="media" className="hidden xl:block">
-          Discord
+          Whatsapp
         </Text>
       </a>
     </div>
