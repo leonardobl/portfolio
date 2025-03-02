@@ -24,7 +24,7 @@ export const SectionAbout = () => {
               <pre className="font-ibm text-[14px] text-custom-brand-100">
                 &lt;h1&gt;
               </pre>
-              Olá <br />
+              Olá, <br />
               Sou <span className="text-custom-brand-100">Leonardo Lima</span>,
               <br />
               Desenvolvo interfaces que transformam experiências digitais.
