@@ -1,0 +1,8 @@
+.card-about {
+  width: 100%;
+  max-width: 20rem;
+  border: 8px solid white;
+  border-top-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  box-shadow: -5px -5px 3px #12f7d6;
+}
