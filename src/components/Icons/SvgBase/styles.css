@@ -1,0 +1,4 @@
+.custom-filter-gray-80 {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(10%) saturate(980%)
+    hue-rotate(172deg) brightness(94%) contrast(89%);
+}

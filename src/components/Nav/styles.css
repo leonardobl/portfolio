@@ -1,0 +1,3 @@
+nav.menu-nav > a.active {
+  @apply text-custom-brand-100;
+}

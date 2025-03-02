@@ -1,0 +1,10 @@
+export { Text } from "./Typography/Text";
+export { Title } from "./Typography/Title";
+export { Divider } from "./Divider";
+export { Wrapper } from "./Wrapper";
+export { Container } from "./Container";
+export { Nav } from "./Nav";
+export { If } from "./If";
+export { InputSearch } from "./FormFields/Inputs/InputSearch";
+export { Icons } from "./Icons";
+export { Header } from "./Header";
