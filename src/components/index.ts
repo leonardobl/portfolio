@@ -9,3 +9,4 @@ export { Icons } from "./Icons";
 export { Header } from "./Header";
 export { Button } from "./Button";
 export { Tag } from "./Tag";
+export { TechProfile } from "./TechProfile";

@@ -3,6 +3,7 @@ import { CardAbout } from "../CardAbout";
 import { Text } from "../Typography/Text";
 import { Title } from "../Typography/Title";
 import { Wrapper } from "../Wrapper";
+import { TechProfile } from "../TechProfile";
 
 export const SectionAbout = () => {
   return (
@@ -60,6 +61,9 @@ export const SectionAbout = () => {
                 <BiLogoWhatsapp className="w-9 h-9 text-custom-brand-100" />
               </a>
             </Title>
+          </div>
+          <div>
+            <TechProfile />
           </div>
         </div>
       </Wrapper>

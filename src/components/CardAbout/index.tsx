@@ -6,7 +6,7 @@ import { Title } from "../Typography/Title";
 
 export const CardAbout = () => {
   return (
-    <div className="w-full max-w-80 border-4 rounded-tl-[160px] rounded-br-[160px] border-white card-about py-14 flex flex-col gap-8 items-center">
+    <div className="w-full max-w-80 border-4 rounded-tl-[160px] rounded-br-[160px] border-white card-about py-14 px-6 flex flex-col gap-8 items-center">
       <div>
         <div className="w-fit mx-auto mb-4">
           <img
@@ -57,11 +57,24 @@ export const CardAbout = () => {
           www.leonardolima.dev.br
         </Text>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-wrap justify-center ">
           <Tag text="HTML" />
           <Tag text="CSS" />
           <Tag text="JS" />
+          <Tag text="TYPESCRIPT" />
           <Tag text="REACT" />
+          <Tag text="NEXT.JS" />
+          <Tag text="TAILWINDCSS" />
+          <Tag text="STYLED-COMPONENTS" />
+          <Tag text="NODEJS" />
+          <Tag text="DOCKER" />
+          <Tag text="JEST" />
+          <Tag text="CYPRESS" />
+          <Tag text="REACT NATIVE" />
+          <Tag text="SQL" />
+          <Tag text="NOSQL" />
+          <Tag text="REACT TESTING LIBRARY" />
+          <Tag text="GRAPHQL" />
         </div>
       </div>
 
