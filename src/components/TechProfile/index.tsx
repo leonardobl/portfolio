@@ -3,7 +3,7 @@ import { Title } from "../Typography/Title";
 
 export const TechProfile = () => {
   return (
-    <div className="bg-custom-gray-100 w-full max-w-[400px] flex flex-col px-10 py-14 gap-4 rounded-[120px]">
+    <div className="bg-custom-gray-100 w-full max-w-[400px] flex flex-col px-10 py-14 gap-4 rounded-[120px] xl:max-w-full xl:flex-row xl:flex-wrap xl:justify-center xl:gap-9">
       <div className="flex gap-3 items-center">
         <Title as="h2" className="text-custom-brand-100 text-5xl">
           4

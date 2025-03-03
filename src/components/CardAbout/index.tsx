@@ -1,12 +1,22 @@
+import { ComponentProps } from "react";
 import { Button } from "../Button";
 import { Icons } from "../Icons";
 import { Tag } from "../Tag";
 import { Text } from "../Typography/Text";
 import { Title } from "../Typography/Title";
+import { twMerge } from "tailwind-merge";
 
-export const CardAbout = () => {
+type CardAboutProps = ComponentProps<"div">;
+
+export const CardAbout = ({ className, ...rest }: CardAboutProps) => {
   return (
-    <div className="w-full max-w-[400px] border-4 rounded-tl-[160px] rounded-br-[160px] border-white card-about py-14 px-4 sm:px-6 flex flex-col gap-8 items-center">
+    <div
+      className={twMerge(
+        "w-full max-w-[400px] border-4 rounded-tl-[160px] rounded-br-[160px] border-white card-about py-14 px-4 sm:px-6 flex flex-col gap-8 items-center",
+        className
+      )}
+      {...rest}
+    >
       <div>
         <div className="w-fit mx-auto mb-4">
           <img
