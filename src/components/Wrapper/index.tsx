@@ -6,7 +6,7 @@ type WrapperProps = ComponentProps<"div">;
 export const Wrapper = ({ className, ...rest }: WrapperProps) => {
   return (
     <div
-      className={twMerge("w-full max-w-[1664px] mx-auto py-16", className)}
+      className={twMerge("w-full max-w-[1664px] mx-auto py-16 px-6", className)}
       {...rest}
     />
   );

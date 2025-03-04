@@ -1,0 +1,6 @@
+div.wrapper-section-about {
+  background-image: url("/assets/svg/about-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
